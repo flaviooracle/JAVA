@@ -1,8 +1,5 @@
-#
-# server.port=8081
-# server:
-#   port:8081
-#
-spring:
-    application:
-        name: demo-api
+ server:
+    port: ${PORT:8080}
+#spring:
+#    application:
+#        name: demo-api
